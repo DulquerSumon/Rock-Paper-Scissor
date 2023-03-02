@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  background-color: #90c9bf;
+}
+/* Hide the scrollbar */
+body::-webkit-scrollbar {
+  display: none; /* WebKit */
+}
+
+/* Hide the scrollbar in Firefox */
+body {
+  scrollbar-width: none;
+}
+
+/* Hide the scrollbar in Internet Explorer 10+ */
+body {
+  -ms-overflow-style: none;
+}
